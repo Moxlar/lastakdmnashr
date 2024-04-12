@@ -40,6 +40,8 @@
 }
 
 .hero-img{
+  position: absolute;
+  top: 0;
   object-position: left;
   width: 510px;
   height: 510px;
