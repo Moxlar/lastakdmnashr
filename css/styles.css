@@ -1,4 +1,9 @@
-
+body{
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Roboto","Arial", sans-serif;
+  letter-spacing: 0.5px;
+}
 .siteheader{
   background-color: #fff;
 }
@@ -11,13 +16,21 @@
   letter-spacing: 1px;
   text-align: left;
   text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+
 
 }
+.navlinks{
+  color: #000000;
+  text-decoration: none;
+}
+
 .hero{
   background-color:#252420;
   font-size: 10px;
   height: 550px;
   color: #fff;
+
 }
 .hero-content{
   width: 390px;
@@ -29,19 +42,11 @@
 }
 .hero-heading{
   font-size: 40px;
-  line-height: 1.2 ;
-  letter-spacing: 0.5;
-  font-weight: bold;
-}
-.hero-text{
-  color: white;
-  font-size: 16px;
-  line-height: 24px;
-}
+  line-height: 1.2;
+  font-family: "Roboto Condensed","Roboto","Arial",sans-serif;
+  }
 
 .hero-img{
-  position: absolute;
-  top: 0;
   object-position: left;
   width: 510px;
   height: 510px;
@@ -52,6 +57,7 @@
   text-decoration: none;
   font-size: 13px;
   line-height: 15px;
+
 }
 .feature{
   width: 340px;
@@ -62,6 +68,7 @@
   line-height: 1.2;
   font-size: 72px;
   letter-spacing: 0.5px;
+  font-family: "Roboto Condensed","Roboto","Arial", sans-serif;
 }
 .feature-icon-wrapper{
   width: 100px;
@@ -71,16 +78,11 @@
 .feature-title{
 
   font-size: 24px;
-  font-weight: 400 px;
-  line-height: 1.2;
-  letter-spacing: 0.5px;
+  /* font-weight: 400 px; */
+  font-family: "Roboto Condensed","Roboto","Arial", sans-serif;
 
 }
-.feature-info{
-font-size: 16px;;
-line-height: 24px;
-letter-spacing: 0.5px;
-}
+
 .promo{
   background-color: #252420;
   color: #ffffff;
@@ -91,14 +93,14 @@ letter-spacing: 0.5px;
 .promo-heading{
 font-size: 40px;
 line-height: 48px;
-}
-.promo-text{
-  font-size: 16px;
-  line-height: 1.5  ;
+font-family: "Roboto Condensed","Roboto","Arial", sans-serif;
+/* font-weight: 700; */
 }
 .promo-highlight{
   color: #FF7500;
   object-fit: cover;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
 }
 
 .promo-img{
@@ -122,14 +124,17 @@ line-height: 48px;
 }
 .social-links{
   list-style: none;
+
 }
 .footer-links a{
  text-decoration: none;
  color: #252420;
  line-height: 19px;
- font-size: 16px;
+
 }
 .footer-links{
   width: 224px;
-
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+ line-height: 19px;
 }
