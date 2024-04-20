@@ -4,8 +4,16 @@ body{
   font-family: "Roboto","Arial", sans-serif;
   letter-spacing: 0.5px;
 }
-.siteheader{
+.site-header{
   background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+.site-header-actions{
+  display:flex;
+  align-items: center;
+
 }
 .sitenav-link{
   text-decoration: none;
@@ -17,6 +25,7 @@ body{
   text-align: left;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
+  display: flex;
 
 
 }
@@ -29,6 +38,9 @@ body{
   background-color:#252420;
   font-size: 10px;
   color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
 }
 .hero-content{
@@ -77,14 +89,20 @@ body{
 .feature-title{
 
   font-size: 24px;
-  /* font-weight: 400 px; */
   font-family: "Roboto Condensed","Roboto","Arial", sans-serif;
 
+}
+.feature-list{
+  display: flex;
+  justify-content: space-between;
 }
 
 .promo{
   background-color: #252420;
   color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .promo-content{
   width: 440px;
@@ -123,7 +141,8 @@ font-family: "Roboto Condensed","Roboto","Arial", sans-serif;
 }
 .social-links{
   list-style: none;
-
+  display: flex;
+  align-items: center;
 }
 .footer-links a{
  text-decoration: none;
@@ -136,4 +155,13 @@ font-family: "Roboto Condensed","Roboto","Arial", sans-serif;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
  line-height: 19px;
+}
+.site-footer-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-bottom{
+  display: flex;
+ 
 }
