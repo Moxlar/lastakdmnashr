@@ -10,9 +10,18 @@ body{
   align-items: center;
   justify-content: space-between;
  }
+ .logo-link{
+  transition: opacity 0.4s ease ;
+ }
+.logo-link:hover{
+  opacity: 0.8;
+ }
+.logo-link:active{
+  opacity: 0.6;
+}
 .site-header-actions{
-  display:flex;
   align-items: center;
+  display:flex;
 
 }
 .sitenav-link{
@@ -20,18 +29,27 @@ body{
   list-style-type: none;
   font-size: 13px;
   font-weight: 500;
-  line-height: 15.23px;
+  line-height: 23px;
   letter-spacing: 1px;
-  text-align: left;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
+  transition: color 0.5s ease;
   display: flex;
+  align-items:left ;
 
+  justify-content: space-around;
 
 }
+
+
 .navlinks{
   color: #000000;
   text-decoration: none;
+  align-items: center;
+}
+.navlinks:hover{
+  color: #FF7500;
+
 }
 
 .hero{
@@ -68,7 +86,14 @@ body{
   text-decoration: none;
   font-size: 13px;
   line-height: 15px;
+  transition: opacity 0.4s ease;
 
+}
+.main-link:hover{
+  opacity: 0.8;
+}
+.main-link:active{
+  opacity: 0.6;
 }
 .feature{
   width: 340px;
@@ -144,6 +169,22 @@ font-family: "Roboto Condensed","Roboto","Arial", sans-serif;
   display: flex;
   align-items: center;
 }
+.social-links a{
+  color:#252420;
+
+}
+
+.social-links a:hover{
+  color: #FF7500;
+
+}
+.social-links a:active{
+  opacity: 0.6;
+
+}
+
+
+
 .footer-links a{
  text-decoration: none;
  color: #252420;
@@ -156,6 +197,13 @@ font-family: "Roboto Condensed","Roboto","Arial", sans-serif;
   font-weight: 400;
  line-height: 19px;
 }
+.footer-links a:hover{
+  color:#FF7500 ;
+
+}
+.footer-links a:active{
+  opacity: 0.6;
+}
 .site-footer-top{
   display: flex;
   justify-content: space-between;
@@ -163,5 +211,5 @@ font-family: "Roboto Condensed","Roboto","Arial", sans-serif;
 }
 .footer-bottom{
   display: flex;
- 
+
 }
