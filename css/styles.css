@@ -24,6 +24,12 @@ body{
   display:flex;
 
 }
+*:focus{
+  outline: 2px #FF7500 dashed;
+  outline-offset: 3px;
+
+
+}
 .sitenav-link{
   text-decoration: none;
   list-style-type: none;
