@@ -9,6 +9,9 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-top: 5px solid #FF7500;
+  padding-top: 16px;
+  padding-bottom: 16px;
  }
  .logo-link{
   transition: opacity 0.4s ease ;
@@ -42,8 +45,9 @@ body{
   transition: color 0.5s ease;
   display: flex;
   align-items:left ;
-
   justify-content: space-around;
+  padding: 0;
+
 
 }
 
@@ -65,7 +69,8 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .hero-content{
   width: 390px;
@@ -74,6 +79,7 @@ body{
   width: 80px;
   height: 3px;
   background-color:#FF7500;
+  border: 0;
 }
 .hero-heading{
   font-size: 40px;
@@ -82,7 +88,7 @@ body{
   }
 
 .hero-img{
-  /* object-position: left; */
+  border-radius: 8px;
   width: 510px;
   height: 510px;
 }
@@ -93,7 +99,10 @@ body{
   font-size: 13px;
   line-height: 15px;
   transition: opacity 0.4s ease;
-
+  display: inline-block;
+  border-radius: 4px;
+  padding: 12px 24px ;
+  font-weight: bold;
 }
 .main-link:hover{
   opacity: 0.8;
@@ -104,6 +113,10 @@ body{
 .feature{
   width: 340px;
   list-style: none;
+}
+.feature{
+  padding-top: 210px;
+  padding-bottom: 210px;
 }
 .features-heading{
   width: 440px;
@@ -116,6 +129,10 @@ body{
   width: 100px;
   height: 100px;
   background-color:rgba(255, 117, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
 .feature-title{
 
@@ -126,6 +143,7 @@ body{
 .feature-list{
   display: flex;
   justify-content: space-between;
+  padding: 0;
 }
 
 .promo{
@@ -134,6 +152,7 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
+ border-radius: 12px;
 }
 .promo-content{
   width: 440px;
@@ -154,6 +173,7 @@ font-family: "Roboto Condensed","Roboto","Arial", sans-serif;
 .promo-img{
   width: 440px;
   height: 440px;
+  border-radius: 12px;
 }
 .site-footer{
   background-color: #F8F8F8;
@@ -162,11 +182,14 @@ font-family: "Roboto Condensed","Roboto","Arial", sans-serif;
 .footer-line{
   background-color: #25242080;
   height: 2px;
+  padding: 0;
 
 }
 
 .site-footer ul {
   list-style: none;
+  padding-top: 56px;
+  padding-bottom: 56px;
 
 
 }
@@ -177,6 +200,7 @@ font-family: "Roboto Condensed","Roboto","Arial", sans-serif;
 }
 .social-links a{
   color:#252420;
+  padding: 0;
 
 }
 
@@ -202,6 +226,7 @@ font-family: "Roboto Condensed","Roboto","Arial", sans-serif;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
  line-height: 19px;
+ padding: 0;
 }
 .footer-links a:hover{
   color:#FF7500 ;
