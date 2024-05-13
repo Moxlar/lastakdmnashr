@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Akademnashr promo sayt</title>
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,10 +18,10 @@
     <div class="site-header-actions">
         <nav>
         <ul class="sitenav-link">
-         <li><a class="navlinks" href="#">bosh sahifa</a></li>
-         <li><a class="navlinks" href="#">kontakt</a></li>
-         <li><a class="navlinks" href="#">telefon</a></li>
-         <li><a class="navlinks" href="#">aksiyalar</a>
+         <li  class="site-nav-item"><a class="navlinks" href="#">bosh sahifa</a></li>
+         <li class="site-nav-item" site-nav-item><a class="navlinks" href="#">kontakt</a></li>
+         <li  class="site-nav-item"><a class="navlinks" href="#">telefon</a></li>
+         <li  class="site-nav-item"><a class="navlinks" href="#">aksiyalar</a>
          </ul>
         </nav>
         <a class="main-link" href="#">Ro`yhatdan utish</a>
@@ -68,10 +69,12 @@
       <section class="promo">
         <div class="promo-content">
           <h2 class="promo-heading">Bolalar kitoblari uchun ajoyib aksiya</h2>
-          <p class="promo-text">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni ostirish uchun turli mashq qo’llanmalari va komikslar.
-          </p>
-          <p class="promo-text">Aksiyadagi eng katta to’plamda <strong class="promo-highlight">50 ta kitob</strong>ni <strong class="promo-highlight">350 ming</strong> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.
-          </p>
+          <div class="promo-text-wrapper">
+            <p class="promo-text">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni ostirish uchun turli mashq qo’llanmalari va komikslar.
+            </p>
+            <p class="promo-text">Aksiyadagi eng katta to’plamda <strong class="promo-highlight">50 ta kitob</strong>ni <strong class="promo-highlight">350 ming</strong> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.
+            </p>
+          </div>
           <a class="main-link"href="#">Buyurtma berish</a>
         </div>
         <img class="promo-img" src="img/sale-img.jpg" srcset="img/sale-img.jpg 1x, img/sale-img@2x.jpg 2x" width="440" height="440">
