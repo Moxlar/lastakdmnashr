@@ -16,6 +16,9 @@ body{
  .logo-link{
   transition: opacity 0.4s ease ;
  }
+.logo-link svg{
+ display: block;
+}
 .logo-link:hover{
   opacity: 0.8;
  }
@@ -247,8 +250,12 @@ margin-bottom: 24px;
   padding: 0;
   margin: 0;
 }
+.social-links svg{
+  display: block;
+}
 .social-links a{
   color:#252420;
+  display: block;
 
 }
 .social-links li{
